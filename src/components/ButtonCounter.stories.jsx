@@ -2,7 +2,10 @@ import { ButtonCounter } from "./ButtonCounter"
 
 export default {
   title: "Counter/ButtonCounter",
-  component: ButtonCounter
+  component: ButtonCounter,
+  argTypes: {
+    backgroundColor: { control: "color" }
+  }
 }
 
 // a story where the button size is large
